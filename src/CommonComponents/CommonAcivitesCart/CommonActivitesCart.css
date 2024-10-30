@@ -1,0 +1,15 @@
+.carts{
+    @apply w-[424px] bg-[#0F4152] pb-[45px] rounded-[15px] text-center
+}
+
+.carts:hover .activitiesName{ 
+    @apply text-brandColor
+}
+
+.activitiesName{
+    @apply mt-[38px] mb-[15px] font-inter font-bold text-[#fff] text-[30px] duration-200
+}
+
+.activitesInfo{
+    @apply font-inter font-normal text-lg text-[#fff]
+}

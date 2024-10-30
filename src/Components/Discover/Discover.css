@@ -1,0 +1,43 @@
+.discoverSection{
+    @apply w-full pt-[105px] pb-[70px] bg-[#f1f1f1]
+}
+
+.discoverRow{
+    @apply flex justify-between items-center
+}
+
+.discoverRow h5{
+    @apply font-yellowTail font-normal text-[#49C4F5] text-[30px]
+}
+
+.discoverRow h1{
+    @apply w-[595px] mt-1 font-imbPlex font-bold text-[54px] text-[#222222]
+}
+
+.discoverRow p{
+    @apply mt-16 w-[595px] font-imbPlex font-normal text-lg text-[#000]
+}
+
+.bulletPoints{
+    @apply mt-[33px] w-[800px] flex flex-col gap-4 font-imbPlex font-normal text-lg text-[#000]
+}
+
+.bulletPoints li{
+    @apply flex items-center gap-3 
+}
+
+.bulletIcon{
+    @apply text-[30px] text-[#C4C4C4]
+}
+
+.discoverButton{
+    @apply mt-11 py-5 px-9 bg-brandColor rounded-[10px] text-[#fff] duration-200
+}
+
+.discoverButton:hover{
+    @apply text-brandColor bg-[#fff]
+}
+
+.discoverImage{
+    @apply flex gap-[51px] items-center
+}

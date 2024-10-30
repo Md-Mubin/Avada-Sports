@@ -1,0 +1,23 @@
+nav{
+    @apply w-full absolute mt-5 top-0 z-10
+}
+
+.navRow{
+    @apply flex justify-between items-center 
+}
+
+.navItems{
+    @apply flex justify-between gap-[55px]
+}
+
+.navItems li a{
+    @apply font-imbPlex font-bold text-[#F6F0F0] text-lg duration-200
+}
+
+.navItems li a:hover{
+    @apply text-brandColor
+}
+
+.navButton{
+    @apply py-5 px-[50px] bg-brandColor rounded-[10px] font-imbPlex font-bold text-[#fff] text-lg
+}

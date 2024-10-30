@@ -1,0 +1,31 @@
+.joinClubSection{
+    @apply w-full pt-5 pb-[503px] bg-brandColor relative
+}
+
+.joinClubLogo{
+    @apply m-auto
+}
+
+.joinClubRow h1{ 
+    @apply w-full mt-[28px] font-imbPlex font-bold text-[#fff] text-[54px] text-center
+}
+
+.joinClubRow p{
+    @apply w-[690px] mt-[52px] font-imbPlex font-bold text-[#fff] text-[30px] m-auto
+}
+
+.joinButtons{
+    @apply mt-[56px] flex justify-center gap-[60px]
+}
+
+.joinButtons button{
+    @apply py-[23px] px-[26px] rounded-[10px] bg-[#0C3543] font-imbPlex font-bold text-[#fff] text-lg duration-300
+}
+
+.joinButtons button:hover{
+    @apply bg-[#fff] text-brandColor
+}
+
+.clubsCart{
+    @apply flex justify-center items-center absolute gap-[70px] bottom-[400px]
+}

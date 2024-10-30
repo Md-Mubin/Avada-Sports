@@ -1,0 +1,19 @@
+.newsHead{
+    @apply flex justify-between items-center
+}
+
+.mainHead h6{
+    @apply font-yellowTail font-normal text-[30px] text-brandColor
+}
+
+.mainHead h1{
+    @apply w-[407px] mt-1 font-imbPlex font-bold text-[54px] text-[#000] 
+}
+
+.newsHead p{
+    @apply w-[619px] font-imbPlex font-normal text-lg text-[#000]
+}
+
+.newsCartRow{
+    @apply mt-[123px] flex justify-between
+}

@@ -1,0 +1,27 @@
+.activitesSection{
+    @apply w-full pt-[120px] pb-[417px] bg-[#0C3543] relative
+}
+
+.activitiesHead{
+    @apply flex justify-between items-center
+}
+
+.head h3{
+    @apply font-yellowTail font-normal text-brandColor text-[30px]
+}
+
+.head h1{
+    @apply w-[394px] mt-2 font-imbPlex font-bold text-[#fff] text-[54px] 
+}
+
+.activitiesHead p{
+    @apply w-[622px] font-imbPlex font-normal text-lg text-[#fff]
+}
+
+.activitiesCart{
+    @apply mt-[100px] flex flex-wrap justify-center gap-6
+}
+
+.sporting{
+    @apply absolute bottom-0 z-10 w-full 
+}

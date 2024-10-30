@@ -1,0 +1,7 @@
+.brandsSection{
+    @apply pt-[265px] pb-[35px]
+}
+
+.brandsRow{
+    @apply flex justify-between items-center
+}

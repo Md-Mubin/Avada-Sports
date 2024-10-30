@@ -1,0 +1,15 @@
+.cartHead{
+    @apply mt-[38px] mb-[32px] w-[315px] font-imbPlex font-bold text-[28px] text-[#000] text-center m-auto
+}
+
+.cartInfo{
+    @apply w-[312px] font-imbPlex font-normal text-lg text-[#000] text-center m-auto
+}
+
+.commonNewsCart button{
+    @apply mt-10 ml-36 font-imbPlex font-bold text-lg text-[#14B9F1] flex items-center gap-4 duration-300 will-change-transform
+}
+
+.commonNewsCart button:hover{
+    @apply scale-125 gap-6 text-brandColor
+}

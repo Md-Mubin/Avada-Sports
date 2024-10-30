@@ -1,0 +1,23 @@
+.bannerSection{
+    @apply w-full h-[757px] pt-[240px] pb-[230px] bg-[url('images/banner_bg.png')] bg-no-repeat bg-center bg-cover relative
+}
+
+.bannerImageChild{
+    @apply absolute bottom-0 w-full
+}
+
+.bannerHead h1{
+    @apply w-[819px] font-imbPlex font-bold text-7xl text-[#fff] leading-normal text-center m-auto
+}
+
+.bannerButtons{
+    @apply mt-12 flex justify-center gap-[57px]
+}
+
+.bannerButtons button{
+    @apply px-10 py-5 bg-[#fff] rounded-[10px] font-imbPlex font-bold text-lg text-[#000] duration-200
+}
+
+.bannerButtons button:hover{
+    @apply bg-brandColor text-[#fff]
+}

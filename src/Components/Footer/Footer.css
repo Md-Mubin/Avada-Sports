@@ -1,0 +1,55 @@
+footer{
+    @apply w-full
+}
+
+.footerRow{
+    @apply flex 
+}
+
+.footerImage{
+    @apply w-full
+}
+
+.footerPart{
+    @apply w-full bg-[#0c3543] pt-20 pb-[96px] pl-[42px] pr-[87px]
+}
+
+.joinClubPart{
+    @apply pt-20 pb-[52px] flex justify-between items-start border-b-2 border-[#C4C4C4]
+}
+
+.joinClubPart h1{
+    @apply w-[125px] font-imbPlex font-bold text-lg text-[#fff] leading-normal text-center relative overflow-hidden z-10 cursor-pointer
+}
+
+.joinClubPart h1 span{
+    @apply w-full h-full left-0 top-[-30px] bg-brandColor absolute duration-200 z-[-1]
+}
+
+.joinClubPart h1:hover span{
+    @apply top-0
+}
+
+.joinClubPart p{
+    @apply w-[358px] font-imbPlex font-normal text-lg text-[#fff] leading-normal
+}
+
+.contactPart{
+    @apply pt-[70px] flex justify-between items-start
+}
+
+.contactPart h2{
+    @apply font-imbPlex font-bold text-[#fff] text-[30px]
+}
+
+.allContacts{
+    @apply flex flex-col gap-[9px]
+}
+
+.allContacts li{
+    @apply w-[320px] font-imbPlex font-normal text-[#fff] text-lg
+}
+
+.copyRight{
+    @apply w-[425px] mt-10 font-imbPlex font-normal text-lg text-[#fff]
+}
