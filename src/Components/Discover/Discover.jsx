@@ -1,6 +1,7 @@
 import React from 'react'
 import './Discover.css'
 import { FaCircle } from 'react-icons/fa'
+import CountUp from 'react-countup'
 
 const Discover = () => {
   return (
@@ -30,11 +31,27 @@ const Discover = () => {
             </div>
           </div>
 
-          <div className="counter">
-            <ul className=''>
-              <li></li>
+          <ul className="counterPart">
+            <ul className='counter1 mainCounter'>
+              <li className='counter'><CountUp start={0} end={10} duration={4} suffix='+'/></li>
+              <li className='counterName'>Sports Activities</li>
             </ul>
-          </div>
+            
+            <ul className='counter2 mainCounter'>
+              <li className='counter'><CountUp start={0} end={3}  duration={6} suffix='k+'/></li>
+              <li className='counterName'>Registered Enthusiasts</li>
+            </ul>
+
+            <ul className='counter3 mainCounter'>
+              <li className='counter'><CountUp start={0} end={15} duration={4} suffix='+'/></li>
+              <li className='counterName'>Years of Experience</li>
+            </ul>
+
+            <ul className='counter4 mainCounter'>
+              <li className='counter'><CountUp start={0} end={9.5} duration={2} decimals={1} decimal='.'/></li>
+              <li className='counterName'>Average Rating</li>
+            </ul>
+          </ul>
         </div>
       </section>
     </>

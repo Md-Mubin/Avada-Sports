@@ -41,3 +41,35 @@
 .discoverImage{
     @apply flex gap-[51px] items-center
 }
+
+.counterPart{
+    @apply mt-[100px] flex justify-between
+}
+
+.mainCounter{
+    @apply px-[60px] pb-6 w-[312px] text-center
+}
+
+.counter{
+    @apply font-imbPlex font-bold text-[80px] text-[#000] leading-normal
+}
+
+.counterName{
+    @apply font-imbPlex font-normal text-lg text-[#000] leading-normal
+}
+
+.counter1{
+    @apply bg-[#FFF4E5]
+}
+
+.counter2{
+    @apply bg-[#E7FDE9]
+}
+
+.counter3{
+    @apply bg-[#F2F2FD]
+}
+
+.counter4{
+    @apply bg-[#FFF4E5]
+}
