@@ -1,3 +1,5 @@
+/* ======================== Responsive Navbar Css Part Start ======================== */
+
 .resNav{
     @apply lg:hidden relative
 }
@@ -18,6 +20,7 @@
     @apply text-brandColor
 }
 
+/* responsive navbar items */
 .resNavItems{
     @apply absolute p-4 flex flex-col items-end gap-2 bg-brandColor rounded-xl w-full left-0 duration-200
 }
@@ -34,6 +37,7 @@
     @apply bg-[#ffb956] rounded-xl
 }
 
+/* for closing responsive navbar button */
 .resNavButtons {
     @apply w-full flex justify-between md:justify-around items-end gap-10
 }
@@ -45,3 +49,5 @@
 .resNavItems button:hover{
     @apply text-[#000]
 }
+
+/* ======================== Responsive Navbar Css Part End ======================== */

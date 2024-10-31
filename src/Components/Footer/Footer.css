@@ -1,3 +1,5 @@
+/* ======================== Footer Css Part Start ======================== */
+
 footer{
     @apply w-full
 }
@@ -14,6 +16,7 @@ footer{
     @apply w-full bg-[#0c3543] pt-20 pb-[96px] pl-[42px] pr-[87px]
 }
 
+/* footer join club row */
 .joinClubPart{
     @apply pt-20 pb-[52px] flex flex-wrap sm:flex-nowrap gap-6 sm:gap-0 justify-between items-start border-b-2 border-[#C4C4C4]
 }
@@ -34,6 +37,7 @@ footer{
     @apply w-[358px] font-imbPlex font-normal text-lg text-[#fff] leading-normal
 }
 
+/* footer contact row */
 .contactPart{
     @apply pt-[70px] flex flex-wrap sm:flex-nowrap gap-6 sm:gap-0 justify-between items-start
 }
@@ -49,3 +53,5 @@ footer{
 .copyRight{
     @apply w-full sm:w-[425px] mt-10 sm:mt-10 font-imbPlex font-normal text-lg text-[#fff] sm:text-center lg:text-start sm:m-auto lg:m-0
 }
+
+/* ======================== Footer Css Part End ======================== */

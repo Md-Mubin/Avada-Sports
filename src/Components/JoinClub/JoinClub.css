@@ -1,7 +1,10 @@
+/* ======================== Join Club Css Part Start ======================== */
+
 .joinClubSection{
     @apply w-full pt-5 pb-[503px] bg-brandColor relative
 }
 
+/* join club logo */
 .joinClubLogo{
     @apply m-auto
 }
@@ -14,6 +17,7 @@
     @apply w-full lg:w-[690px] mt-[52px] font-imbPlex font-bold text-[#fff] text-xl lg:text-[30px] m-auto text-center
 }
 
+/* join club buttons */
 .joinButtons{
     @apply mt-[56px] flex justify-center gap-4 lg:gap-[60px]
 }
@@ -29,3 +33,5 @@
 .clubsCart{
     @apply w-full flex flex-wrap justify-center items-center absolute gap-[400px] sm:gap-[450px] lg:gap-[70px] lg:bottom-[400px] mt-10 lg:mt-0 left-0 px-1 sm:px-6 lg:px-0
 }
+
+/* ======================== Join Club Css Part End ======================== */

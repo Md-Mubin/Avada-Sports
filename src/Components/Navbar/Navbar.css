@@ -1,3 +1,5 @@
+/* ======================== Navbar Css Part Start ======================== */
+
 nav{
     @apply w-full absolute mt-5 top-0 z-10 
 }
@@ -6,6 +8,7 @@ nav{
     @apply hidden lg:flex justify-between items-center  
 }
 
+/* navbar items */
 .navItems{
     @apply flex justify-between gap-8 xl:gap-[55px]
 }
@@ -21,3 +24,5 @@ nav{
 .navButton{
     @apply py-2 xl:py-5 px-5 xl:px-[50px] bg-brandColor rounded-[10px] font-imbPlex font-bold text-[#fff] text-lg
 }
+
+/* ======================== Navbar Css Part End ======================== */

@@ -1,3 +1,5 @@
+/* ======================== Common News Cart Css Part Start ======================== */
+
 .cartHead{
     @apply mt-5 lg:mt-[38px] mb-1 lg:mb-[32px] sm:w-[315px] font-imbPlex font-bold text-[28px] text-[#000] text-center m-auto 
 }
@@ -17,3 +19,5 @@
 .commonNewsCart button:hover{
     @apply scale-125 gap-4 text-brandColor will-change-transform
 }
+
+/* ======================== Common News Cart Css Part End ======================== */

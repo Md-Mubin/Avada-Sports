@@ -1,14 +1,30 @@
+// ===================== All Imports
+import            './CommonActivitesCart.css'
 import React from 'react'
-import './CommonActivitesCart.css'
 
 const CommonActivitesCart = ({activitesImage, activitesInfo, activitesName}) => {
     return (
         <>
+
             <ul className='carts'>
-                <li><img src={activitesImage} alt="activites_image" /></li>
-                <li className='activitiesName'>{activitesName}</li>
-                <li className='activitesInfo'>{activitesInfo}</li>
+
+                {/* common activities image */}
+                <li>
+                    <img src={activitesImage} alt="activites_image" />
+                </li>
+
+                {/* common activities names */}
+                <li className='activitiesName'>
+                    {activitesName}
+                </li>
+
+                {/* common activities infos */}
+                <li className='activitesInfo'>
+                    {activitesInfo}
+                </li>
             </ul>
+
+            {/* =================== Common Activities Cart Part End =================== */}
         </>
     )
 }

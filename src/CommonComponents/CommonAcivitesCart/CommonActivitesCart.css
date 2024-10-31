@@ -1,3 +1,5 @@
+/* ======================== Common Activites Cart Css Part Start ======================== */
+
 .carts{
     @apply w-[410px] bg-[#0F4152] pb-[45px] rounded-[15px] text-center
 }
@@ -13,3 +15,5 @@
 .activitesInfo{
     @apply font-inter font-normal text-lg text-[#fff]
 }
+
+/* ======================== Common Activites Cart Css Part End ======================== */

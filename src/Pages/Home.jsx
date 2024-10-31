@@ -1,6 +1,5 @@
 import React from 'react'
 import Banner from '../Components/Banner/Banner'
-import Navbar from '../Components/Navbar/Navbar'
 import Discover from '../Components/Discover/Discover'
 import Activities from '../Components/Activites/Activities'
 import JoinClub from '../Components/JoinClub/JoinClub'

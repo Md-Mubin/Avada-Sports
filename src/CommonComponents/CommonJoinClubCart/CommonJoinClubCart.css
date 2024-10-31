@@ -1,3 +1,5 @@
+/* ======================== Common Join Club Cart Css Part Start ======================== */
+
 .commonJoinClubCart{
     @apply w-full lg:w-[392px] relative blur-[1px] duration-300 cursor-pointer
 }
@@ -25,3 +27,5 @@
 .joinClubInfo h6{
     @apply mt-[68px] font-imbPlex font-normal text-lg text-[#A0A0A0] hidden sm:block
 }
+
+/* ======================== Common Join Club Cart Css Part End ======================== */

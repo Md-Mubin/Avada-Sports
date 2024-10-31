@@ -1,3 +1,5 @@
+/* ======================== Excitement Css Part Start ======================== */
+
 .excitementSection{
     @apply pt-[850px] sm:pt-[950px] pb-[150px] lg:py-[230px]
 }
@@ -14,6 +16,7 @@
     @apply font-imbPlex font-bold text-[30px] text-[#000] mt-[30px] mb-20
 }
 
+/* excitement row */
 .exitementRow{
     @apply flex flex-wrap xl:flex-nowrap justify-center xl:justify-between gap-10 xl:gap-0
 }
@@ -33,3 +36,5 @@
 .excitementCart p{
     @apply w-[275px] font-imbPlex font-normal text-lg text-[#000] text-center lg:mt-[-30px]
 }
+
+/* ======================== Excitement Css Part End ======================== */

@@ -1,3 +1,5 @@
+/* ======================== Banner Css Part Start ======================== */
+
 .bannerSection{
     @apply w-full lg:h-[757px] pt-[100px] lg:pt-[240px] pb-[130px] lg:pb-[230px] bg-[url('images/banner_bg.png')] bg-no-repeat bg-center bg-cover relative
 }
@@ -6,10 +8,12 @@
     @apply absolute bottom-0 w-full
 }
 
+/* banner heading */
 .bannerHead h1{
     @apply w-full sm:w-[400px] lg:w-[819px] font-imbPlex font-bold text-3xl lg:text-7xl text-[#fff] leading-normal text-center m-auto
 }
 
+/* banner buttons */
 .bannerButtons{
     @apply mt-12 flex justify-between sm:justify-center sm:gap-[57px]
 }
@@ -21,3 +25,5 @@
 .bannerButtons button:hover{
     @apply bg-brandColor text-[#fff]
 }
+
+/* ======================== Banner Css Part End ======================== */
