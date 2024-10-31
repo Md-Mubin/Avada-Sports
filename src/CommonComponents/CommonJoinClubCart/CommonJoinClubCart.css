@@ -1,17 +1,17 @@
 .commonJoinClubCart{
-    @apply w-[392px] relative blur-[1px] duration-200 cursor-pointer
+    @apply w-full lg:w-[392px] relative blur-[1px] duration-300 cursor-pointer
 }
 
 .commonJoinClubCart:hover{
-    @apply blur-0 
+    @apply blur-0 z-10 lg:scale-110
 }
 
 .joinClubImage{
-    @apply w-full h-[445px] absolute top-0 left-0 
+    @apply w-full h-[380px] sm:h-[445px] absolute top-0 left-0 
 }
 
 .joinClubInfo{
-    @apply absolute top-[213px] pl-[66px]
+    @apply absolute top-[150px] sm:top-[213px] pl-[66px]
 }
 
 .joinClubInfo h4{
@@ -23,5 +23,5 @@
 }
 
 .joinClubInfo h6{
-    @apply mt-[68px] font-imbPlex font-normal text-lg text-[#A0A0A0]
+    @apply mt-[68px] font-imbPlex font-normal text-lg text-[#A0A0A0] hidden sm:block
 }

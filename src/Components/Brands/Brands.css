@@ -3,5 +3,5 @@
 }
 
 .brandsRow{
-    @apply flex justify-between items-center
+    @apply flex flex-wrap lg:flex-nowrap justify-center lg:justify-between items-center gap-6 lg:gap-0
 }

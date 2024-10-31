@@ -7,19 +7,19 @@
 }
 
 .joinClubRow h1{ 
-    @apply w-full mt-[28px] font-imbPlex font-bold text-[#fff] text-[54px] text-center
+    @apply w-full mt-[28px] font-imbPlex font-bold text-[#fff] text-2xl lg:text-[54px] text-center leading-normal
 }
 
 .joinClubRow p{
-    @apply w-[690px] mt-[52px] font-imbPlex font-bold text-[#fff] text-[30px] m-auto
+    @apply w-full lg:w-[690px] mt-[52px] font-imbPlex font-bold text-[#fff] text-xl lg:text-[30px] m-auto text-center
 }
 
 .joinButtons{
-    @apply mt-[56px] flex justify-center gap-[60px]
+    @apply mt-[56px] flex justify-center gap-4 lg:gap-[60px]
 }
 
 .joinButtons button{
-    @apply py-[23px] px-[26px] rounded-[10px] bg-[#0C3543] font-imbPlex font-bold text-[#fff] text-lg duration-300
+    @apply p-4 lg:py-[23px] lg:px-[26px] rounded-[10px] bg-[#0C3543] font-imbPlex font-bold text-[#fff] text-sm lg:text-lg duration-300
 }
 
 .joinButtons button:hover{
@@ -27,5 +27,5 @@
 }
 
 .clubsCart{
-    @apply flex justify-center items-center absolute gap-[70px] bottom-[400px]
+    @apply w-full flex flex-wrap justify-center items-center absolute gap-[400px] sm:gap-[450px] lg:gap-[70px] lg:bottom-[400px] mt-10 lg:mt-0 left-0 px-1 sm:px-6 lg:px-0
 }

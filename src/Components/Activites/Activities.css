@@ -1,9 +1,9 @@
 .activitesSection{
-    @apply w-full pt-[120px] pb-[417px] bg-[#0C3543] relative
+    @apply w-full pt-10 lg:pt-[120px] pb-[200px] lg:pb-[417px] bg-[#0C3543] relative
 }
 
 .activitiesHead{
-    @apply flex justify-between items-center
+    @apply flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4 lg:gap-0
 }
 
 .head h3{
@@ -11,15 +11,15 @@
 }
 
 .head h1{
-    @apply w-[394px] mt-2 font-imbPlex font-bold text-[#fff] text-[54px] 
+    @apply w-full md:w-[394px] lg:w-[394px] mt-2 font-imbPlex font-bold text-[#fff] text-3xl sm:text-[54px] leading-normal
 }
 
 .activitiesHead p{
-    @apply w-[622px] font-imbPlex font-normal text-lg text-[#fff]
+    @apply w-full lg:w-[450px] xl:w-[622px] font-imbPlex font-normal text-lg text-[#fff]
 }
 
 .activitiesCart{
-    @apply mt-[100px] flex flex-wrap justify-center gap-6
+    @apply mt-10 lg:mt-[100px] flex flex-wrap justify-center gap-6
 }
 
 .sporting{

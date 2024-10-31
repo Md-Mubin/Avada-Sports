@@ -3,11 +3,11 @@ footer{
 }
 
 .footerRow{
-    @apply flex 
+    @apply flex flex-wrap xl:flex-nowrap
 }
 
 .footerImage{
-    @apply w-full
+    @apply lg:w-full
 }
 
 .footerPart{
@@ -15,7 +15,7 @@ footer{
 }
 
 .joinClubPart{
-    @apply pt-20 pb-[52px] flex justify-between items-start border-b-2 border-[#C4C4C4]
+    @apply pt-20 pb-[52px] flex flex-wrap sm:flex-nowrap gap-6 sm:gap-0 justify-between items-start border-b-2 border-[#C4C4C4]
 }
 
 .joinClubPart h1{
@@ -35,21 +35,17 @@ footer{
 }
 
 .contactPart{
-    @apply pt-[70px] flex justify-between items-start
+    @apply pt-[70px] flex flex-wrap sm:flex-nowrap gap-6 sm:gap-0 justify-between items-start
 }
 
 .contactPart h2{
     @apply font-imbPlex font-bold text-[#fff] text-[30px]
 }
 
-.allContacts{
-    @apply flex flex-col gap-[9px]
-}
-
 .allContacts li{
-    @apply w-[320px] font-imbPlex font-normal text-[#fff] text-lg
+    @apply lg:w-[320px] mt-3 sm:mt-[9px] font-imbPlex font-normal text-[#fff] text-lg
 }
 
 .copyRight{
-    @apply w-[425px] mt-10 font-imbPlex font-normal text-lg text-[#fff]
+    @apply w-full sm:w-[425px] mt-10 sm:mt-10 font-imbPlex font-normal text-lg text-[#fff] sm:text-center lg:text-start sm:m-auto lg:m-0
 }
