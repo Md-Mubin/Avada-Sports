@@ -1,5 +1,5 @@
 // ===================== All Imports
-import                       './commonNewsCart.css'
+import                       './CommonNewsCart.css'
 import React            from 'react'
 import { FaArrowRight } from 'react-icons/fa'
 
