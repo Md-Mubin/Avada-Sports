@@ -17,7 +17,7 @@ const Activities = () => {
                 <div className="container">
 
                     {/* activities heading */}
-                    <div className="activitiesHead">
+                    <div className="mubin-activitiesHead">
                         <div className="head">
                             <h3>Feel The Excitement</h3>
                             <h1>Extreme Sports Activities</h1>

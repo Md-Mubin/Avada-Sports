@@ -4,7 +4,7 @@
     @apply w-full pt-10 lg:pt-[120px] pb-[200px] lg:pb-[417px] bg-[#0C3543] relative
 }
 
-.activitiesHead{
+.mubin-activitiesHead{
     @apply flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4 lg:gap-0
 }
 
@@ -17,7 +17,7 @@
     @apply w-full md:w-[394px] lg:w-[394px] mt-2 font-imbPlex font-bold text-[#fff] text-3xl sm:text-[54px] leading-normal
 }
 
-.activitiesHead p{
+.mubin-activitiesHead p{
     @apply w-full lg:w-[450px] xl:w-[622px] font-imbPlex font-normal text-lg text-[#fff]
 }
 

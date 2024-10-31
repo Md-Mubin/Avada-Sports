@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className="footerRow">
 
                     {/* footer main image */}
-                    <img src="images/footer_image.png" alt="footer_image" className='footerImage' />
+                    <img src="images/footer_image.png" alt="footer_image" className='mubin-footerImage' />
 
                     {/* footer wriiten part */}
                     <div className="footerPart">

@@ -8,7 +8,7 @@ footer{
     @apply flex flex-wrap xl:flex-nowrap
 }
 
-.footerImage{
+.mubin-footerImage{
     @apply lg:w-full
 }
 

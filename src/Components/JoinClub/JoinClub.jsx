@@ -17,7 +17,7 @@ const JoinClub = () => {
                     <div className="joinClubRow">
 
                         {/* join section logo */}
-                        <img src="images/joinLogo.png" alt="join_image" className='joinClubLogo'/>
+                        <img src="images/joinLogo.png" alt="join_image" className='mubin-joinClubLogo'/>
 
                         {/* join section heading */}
                         <h1>Extreme Sports Will Test Your Limits And Push The To The Max</h1>

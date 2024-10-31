@@ -28,7 +28,7 @@ const ResponsiveNavbar = () => {
                     <div className="resNavRow">
 
                         {/* responsive navbar logo image */}
-                        <img src="images/logo.png" alt="logo_image" className='resNavLogo' />
+                        <img src="images/logo.png" alt="logo_image" className='mubin-resNavLogo' />
 
                         {/* responsive navbar button for working the toggle function */}
                         <button onClick={handleShow}><HiBarsArrowDown /></button>

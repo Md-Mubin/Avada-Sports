@@ -7,7 +7,7 @@ const Banner = () => {
         <>
             {/* =================== Banner Section Part Start =================== */}
 
-            <section className='bannerSection'>
+            <section className='mubin-bannerSection'>
 
                 {/* banner image's child for styling */}
                 <img src="images/banner_child.png" alt="child_image" className='bannerImageChild' />
@@ -16,7 +16,7 @@ const Banner = () => {
                 <div className="container">
 
                     {/* banner heading part */}
-                    <div className="bannerHead">
+                    <div className="mubin-bannerHead">
                         <h1>Experience The Spirit Of Adventure Sports</h1>
 
                         {/* buttons in banner area */}

@@ -1,6 +1,6 @@
 /* ======================== Banner Css Part Start ======================== */
 
-.bannerSection{
+.mubin-bannerSection{
     @apply w-full lg:h-[757px] pt-[100px] lg:pt-[240px] pb-[130px] lg:pb-[230px] bg-[url('images/banner_bg.png')] bg-no-repeat bg-center bg-cover relative
 }
 
@@ -9,7 +9,7 @@
 }
 
 /* banner heading */
-.bannerHead h1{
+.mubin-bannerHead h1{
     @apply w-full sm:w-[400px] lg:w-[819px] font-imbPlex font-bold text-3xl lg:text-7xl text-[#fff] leading-normal text-center m-auto
 }
 

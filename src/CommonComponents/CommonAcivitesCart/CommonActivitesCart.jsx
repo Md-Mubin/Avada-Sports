@@ -14,7 +14,7 @@ const CommonActivitesCart = ({activitesImage, activitesInfo, activitesName}) => 
                 </li>
 
                 {/* common activities names */}
-                <li className='activitiesName'>
+                <li className='mubin-activitiesName'>
                     {activitesName}
                 </li>
 

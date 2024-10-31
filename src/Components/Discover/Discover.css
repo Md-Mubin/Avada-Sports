@@ -4,28 +4,28 @@
     @apply w-full pt-[50px] lg:pt-[105px] pb-[70px] bg-[#f1f1f1]
 }
 
-.discoverRow{
+.mubin-discoverRow{
     @apply flex flex-col xl:flex-row justify-between items-center gap-8 xl:gap-0
 }
 
-.discoverRow h5{
+.mubin-discoverRow h5{
     @apply font-yellowTail font-normal text-[#49C4F5] text-[30px]
 }
 
-.discoverRow h1{
+.mubin-discoverRow h1{
     @apply w-full sm:w-[595px] mt-1 font-imbPlex font-bold text-3xl sm:text-[54px] text-[#222222] leading-normal
 }
 
-.discoverRow p{
+.mubin-discoverRow p{
     @apply mt-8 sm:mt-16 sm:w-[595px] font-imbPlex font-normal text-lg text-[#000]
 }
 
 /* all the bullet points information */
-.bulletPoints{
+.mubin-bulletPoints{
     @apply mt-[33px] flex flex-col gap-4 font-imbPlex font-normal text-lg text-[#000]
 }
 
-.bulletPoints li{
+.mubin-bulletPoints li{
     @apply flex sm:items-center gap-3 
 }
 

@@ -15,7 +15,7 @@ const Discover = () => {
         <div className="container">
 
           {/* discover row part */}
-          <div className="discoverRow">
+          <div className="mubin-discoverRow">
 
             {/* discover information */}
             <div className="discoverInfo">
@@ -24,7 +24,7 @@ const Discover = () => {
               <p>Dolor sit amet consectetur adipiscing elits eiusmod tempor incididunts laboreyse dolore mag aliqua. Quis ipsum supendise ultrices gravid. Risus commodo viverra sed ipsum maecenas.</p>
 
               {/* all the bullet points */}
-              <ul className='bulletPoints'>
+              <ul className='mubin-bulletPoints'>
                 <li><FaCircle className='bulletIcon' />Unde omnis iste natus error sit voluptatem dolore</li>
                 <li><FaCircle className='bulletIcon' />Eaque ipsa quae ab illo inventore veritatis quasi que</li>
                 <li><FaCircle className='bulletIcon' />Accusantium dolore que laudantium totamrem periam</li>
