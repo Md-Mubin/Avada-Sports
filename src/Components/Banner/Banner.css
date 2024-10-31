@@ -1,5 +1,5 @@
 .bannerSection{
-    @apply w-full h-[757px] pt-[240px] pb-[230px] bg-[url('images/banner_bg.png')] bg-no-repeat bg-center bg-cover relative
+    @apply w-full lg:h-[757px] pt-[100px] lg:pt-[240px] pb-[130px] lg:pb-[230px] bg-[url('images/banner_bg.png')] bg-no-repeat bg-center bg-cover relative
 }
 
 .bannerImageChild{
@@ -7,15 +7,15 @@
 }
 
 .bannerHead h1{
-    @apply w-[819px] font-imbPlex font-bold text-7xl text-[#fff] leading-normal text-center m-auto
+    @apply w-full sm:w-[400px] lg:w-[819px] font-imbPlex font-bold text-3xl lg:text-7xl text-[#fff] leading-normal text-center m-auto
 }
 
 .bannerButtons{
-    @apply mt-12 flex justify-center gap-[57px]
+    @apply mt-12 flex justify-between sm:justify-center sm:gap-[57px]
 }
 
 .bannerButtons button{
-    @apply px-10 py-5 bg-[#fff] rounded-[10px] font-imbPlex font-bold text-lg text-[#000] duration-200
+    @apply p-4 lg:px-10 lg:py-5 bg-[#fff] rounded-[10px] font-imbPlex font-bold text-xs lg:text-lg text-[#000] duration-200
 }
 
 .bannerButtons button:hover{

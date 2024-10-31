@@ -1,9 +1,9 @@
 .discoverSection{
-    @apply w-full pt-[105px] pb-[70px] bg-[#f1f1f1]
+    @apply w-full pt-[50px] lg:pt-[105px] pb-[70px] bg-[#f1f1f1]
 }
 
 .discoverRow{
-    @apply flex justify-between items-center
+    @apply flex flex-col xl:flex-row justify-between items-center gap-8 xl:gap-0
 }
 
 .discoverRow h5{
@@ -11,11 +11,11 @@
 }
 
 .discoverRow h1{
-    @apply w-[595px] mt-1 font-imbPlex font-bold text-[54px] text-[#222222]
+    @apply w-full sm:w-[595px] mt-1 font-imbPlex font-bold text-3xl sm:text-[54px] text-[#222222] leading-normal
 }
 
 .discoverRow p{
-    @apply mt-16 w-[595px] font-imbPlex font-normal text-lg text-[#000]
+    @apply mt-8 sm:mt-16 sm:w-[595px] font-imbPlex font-normal text-lg text-[#000]
 }
 
 .bulletPoints{
@@ -23,7 +23,7 @@
 }
 
 .bulletPoints li{
-    @apply flex items-center gap-3 
+    @apply flex sm:items-center gap-3 
 }
 
 .bulletIcon{
@@ -31,7 +31,7 @@
 }
 
 .discoverButton{
-    @apply mt-11 py-5 px-9 bg-brandColor rounded-[10px] text-[#fff] duration-200
+    @apply mt-11 p-4 lg:py-5 lg:px-9 bg-brandColor rounded-[10px] text-[#fff] duration-200
 }
 
 .discoverButton:hover{
@@ -39,23 +39,23 @@
 }
 
 .discoverImage{
-    @apply flex gap-[51px] items-center
+    @apply flex flex-col sm:flex-row gap-5 md:gap-[51px] items-center
 }
 
 .counterPart{
-    @apply mt-[100px] flex justify-between gap-5
+    @apply mt-[100px] flex flex-wrap lg:flex-nowrap justify-center xl:justify-center gap-5
 }
 
 .mainCounter{
-    @apply px-[60px] pb-6 w-[312px] text-center
+    @apply px-4 xl:px-[55px] pb-3 lg:pb-6 w-[200px] lg:w-[312px] text-center
 }
 
 .counter{
-    @apply font-imbPlex font-bold text-[80px] text-[#000] leading-normal
+    @apply font-imbPlex font-bold text-6xl xl:text-[80px] text-[#000] leading-normal
 }
 
 .counterName{
-    @apply font-imbPlex font-normal text-lg text-[#000] leading-normal
+    @apply font-imbPlex font-normal text-sm xl:text-lg text-[#000] leading-normal
 }
 
 .counter1{
