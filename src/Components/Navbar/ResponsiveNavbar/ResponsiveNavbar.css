@@ -1,0 +1,47 @@
+.resNav{
+    @apply lg:hidden relative
+}
+
+.resNavRow{
+    @apply flex justify-between
+}
+
+.resNavLogo{
+    @apply w-[120px]
+}
+
+.resNavRow button{
+    @apply text-4xl text-[#fff] duration-200
+}
+
+.resNavRow button:hover{
+    @apply text-brandColor
+}
+
+.resNavItems{
+    @apply absolute p-4 flex flex-col items-end gap-2 bg-brandColor rounded-xl w-full left-0 duration-200
+}
+
+.resNavItems li a{
+    @apply font-imbPlex font-normal text-2xl text-[#fff]
+}
+
+.resNavItems li{
+    @apply w-full text-center duration-200
+}
+
+.resNavItems li:hover{
+    @apply bg-[#ffb956] rounded-xl
+}
+
+.resNavButtons {
+    @apply w-full flex justify-between md:justify-around items-end gap-10
+}
+
+.resNavItems button{
+    @apply duration-300 text-3xl mt-4 font-arizona
+}
+
+.resNavItems button:hover{
+    @apply text-[#000]
+}

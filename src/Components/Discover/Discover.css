@@ -19,7 +19,7 @@
 }
 
 .bulletPoints{
-    @apply mt-[33px] w-[800px] flex flex-col gap-4 font-imbPlex font-normal text-lg text-[#000]
+    @apply mt-[33px] flex flex-col gap-4 font-imbPlex font-normal text-lg text-[#000]
 }
 
 .bulletPoints li{
@@ -43,7 +43,7 @@
 }
 
 .counterPart{
-    @apply mt-[100px] flex justify-between
+    @apply mt-[100px] flex justify-between gap-5
 }
 
 .mainCounter{

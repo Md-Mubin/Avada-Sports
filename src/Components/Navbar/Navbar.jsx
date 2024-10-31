@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
+import ResponsiveNavbar from './ResponsiveNavbar/ResponsiveNavbar'
 
 const Navbar = () => {
     return (
@@ -18,7 +19,9 @@ const Navbar = () => {
                         </ul>
                         <button className='navButton'>Get Started</button>
                     </div>
+
                 </div>
+                    <ResponsiveNavbar/>
             </nav>
         </>
     )

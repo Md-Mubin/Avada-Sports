@@ -1,5 +1,5 @@
 .carts{
-    @apply w-[424px] bg-[#0F4152] pb-[45px] rounded-[15px] text-center
+    @apply w-[410px] bg-[#0F4152] pb-[45px] rounded-[15px] text-center
 }
 
 .carts:hover .activitiesName{ 

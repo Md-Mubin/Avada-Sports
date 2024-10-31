@@ -1,13 +1,13 @@
 nav{
-    @apply w-full absolute mt-5 top-0 z-10
+    @apply w-full absolute mt-5 top-0 z-10 
 }
 
 .navRow{
-    @apply flex justify-between items-center 
+    @apply hidden lg:flex justify-between items-center  
 }
 
 .navItems{
-    @apply flex justify-between gap-[55px]
+    @apply flex justify-between gap-8 xl:gap-[55px]
 }
 
 .navItems li a{
@@ -19,5 +19,5 @@ nav{
 }
 
 .navButton{
-    @apply py-5 px-[50px] bg-brandColor rounded-[10px] font-imbPlex font-bold text-[#fff] text-lg
+    @apply py-2 xl:py-5 px-5 xl:px-[50px] bg-brandColor rounded-[10px] font-imbPlex font-bold text-[#fff] text-lg
 }
