@@ -1,6 +1,6 @@
-# Vaccination Webpage
+# Avada Sports Webpage
 ---------------------------------------
-A Medical Webpage made with React and Tailwind CSS and
+A Sports Webpage made with React and Tailwind CSS and
 have fully reponsive in all devices.
 
 ## Getting Started
