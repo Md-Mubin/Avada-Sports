@@ -5,7 +5,8 @@ import React from 'react'
 const CommonActivitesCart = ({activitesImage, activitesInfo, activitesName}) => {
     return (
         <>
-
+            {/* =================== Common Activities Cart Part Start =================== */}
+            
             <ul className='carts'>
 
                 {/* common activities image */}
