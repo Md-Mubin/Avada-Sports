@@ -1,7 +1,7 @@
 /* ======================== Footer Css Part Start ======================== */
 
 footer{
-    @apply w-full overflow-hidden h-[92vh]
+    @apply w-full overflow-hidden 
 }
 
 .footerRow{
@@ -9,7 +9,7 @@ footer{
 }
 
 .mubin-footerImage{
-    @apply lg:w-full 
+    @apply lg:w-full bg-fixed
 }
 
 .footerPart{
