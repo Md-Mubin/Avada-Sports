@@ -1,8 +1,7 @@
 /* ======================== Banner Css Part Start ======================== */
 
 .mubin-bannerSection{
-    @apply w-full lg:h-[757px] pt-[100px] lg:pt-[240px] pb-[130px] lg:pb-[230px] bg-[url('/images/banner_bg.png')] bg-no-repeat bg-center bg-cover relative;
-    background-attachment: fixed;
+    @apply w-full lg:h-[757px] pt-[100px] lg:pt-[240px] pb-[130px] lg:pb-[230px] bg-[url('/images/banner_bg.png')] bg-no-repeat bg-center bg-cover relative bg-fixed overflow-hidden
 }
 
 .bannerImageChild{
