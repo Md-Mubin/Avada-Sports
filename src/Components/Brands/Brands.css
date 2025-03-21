@@ -1,7 +1,7 @@
 /* ======================== Brands Css Part Start ======================== */
 
 .brandsSection{
-    @apply pt-[265px] pb-[35px]
+    @apply pt-[180px] pb-[80px] mb-[50px] overflow-hidden
 }
 
 .brandsRow{

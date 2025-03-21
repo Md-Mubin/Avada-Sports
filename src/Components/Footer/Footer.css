@@ -1,19 +1,19 @@
 /* ======================== Footer Css Part Start ======================== */
 
 footer{
-    @apply w-full
+    @apply w-full overflow-hidden h-[92vh]
 }
 
 .footerRow{
-    @apply flex flex-wrap xl:flex-nowrap
+    @apply flex flex-wrap xl:flex-nowrap 
 }
 
 .mubin-footerImage{
-    @apply lg:w-full
+    @apply lg:w-full 
 }
 
 .footerPart{
-    @apply w-full bg-[#0c3543] pt-20 pb-[96px] pl-[42px] pr-[87px]
+    @apply w-full bg-[#0c3543] pt-20 pb-[100px] pl-[42px] pr-[87px]
 }
 
 /* footer join club row */
